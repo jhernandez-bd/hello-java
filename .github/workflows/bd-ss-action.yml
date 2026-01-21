@@ -33,6 +33,6 @@ jobs:
 #        blackducksca_prComment_enabled: true
 #        blackducksca_reports_sarif_create: true
 #        blackducksca_upload_sarif_report: true
-# super awesome comment
+# super great comment
         github_token: ${{ secrets.GITHUB_TOKEN }}
         include_diagnostics: false
