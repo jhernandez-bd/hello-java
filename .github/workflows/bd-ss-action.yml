@@ -31,6 +31,6 @@ jobs:
 #        blackducksca_scan_failure_severities: BLOCKER
 #        blackducksca_fixpr_enabled: true
 #        blackducksca_prComment_enabled: true
-#        BRIGHTTALKS WEBINAR DEMONSTRATION
+#        BRIGHTTALKS WEBINAR DEMONSTRATION EDIT
         github_token: ${{ secrets.GITHUB_TOKEN }}
         include_diagnostics: false
