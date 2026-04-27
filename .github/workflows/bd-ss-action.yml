@@ -34,3 +34,15 @@ jobs:
 #        BRIGHTTALKS WEBINAR TEST DEMONSTRATION
         github_token: ${{ secrets.GITHUB_TOKEN }}
         include_diagnostics: false
+    - name: Post-Step
+      run: echo "Post Step"
+  independentJob:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Independent Job
+      run: echo "Independent Job"
+  dependentJob:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Dependent Job
+      run: echo "Dependent Job"
