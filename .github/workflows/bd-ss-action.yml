@@ -28,7 +28,7 @@ jobs:
         DETECT_PROJECT_VERSION_NAME: ${{ github.ref_name }}
         DETECT_CODE_LOCATION_NAME: ${{ github.event.repository.name }}-${{ github.ref_name }}
       with:
-        blackducksca_url: ${{ vars.BLACKDUCK_UR }}
+        blackducksca_url: ${{ vars.BLACKDUCK_URL }}
         blackducksca_token: ${{ secrets.BLACKDUCK_API_TOKEN }}
         blackducksca_scan_failure_severities: BLOCKER
         blackducksca_fixpr_enabled: true
